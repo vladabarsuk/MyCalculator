@@ -13,7 +13,8 @@
     <string name="key_zero">0</string>
     <string name="key_plus">+</string>
     <string name="key_minus">-</string>
-    <string name="key_devide">/</string>
+    <string name="key_divide">/</string>
     <string name="key_multiply">*</string>
     <string name="key_equals">=</string>
+    <string name="key_clean">C</string>
 </resources>
