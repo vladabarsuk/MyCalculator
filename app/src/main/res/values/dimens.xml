@@ -5,4 +5,6 @@
     <dimen name="title_size">24sp</dimen>
     <dimen name="default_card_radius">16dp</dimen>
     <dimen name="scrollable_area">72dp</dimen>
+    <dimen name="corner_radius">16dp</dimen>
+    <dimen name="small_margin">4dp</dimen>
 </resources>

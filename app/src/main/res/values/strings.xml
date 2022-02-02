@@ -17,4 +17,5 @@
     <string name="key_multiply">*</string>
     <string name="key_equals">=</string>
     <string name="key_clean">C</string>
+    <string name="theme_one">theme ONE</string>
 </resources>
