@@ -11,7 +11,8 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
-    TextView number, result;
+    private TextView number;
+    private TextView result;
     double number1 = 0, number2 = 0, value = 0;
     boolean sum, sub, mul, div;
     Button one, two, three, four, five, six, seven, eight, nine, zero, plus, minus, multiply, divide, dot, equal, clean;
@@ -164,21 +165,21 @@ public class MainActivity extends AppCompatActivity {
         equal.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if (sum == true || sub == true || mul == true || div == true) {
+                if (sum || sub || mul || div ) {
                     if (number.getText() != null) {
                         number2 = Float.parseFloat(number.getText() + "");
                         result.setText(result.getText() + " " + number.getText());
 
-                        if (sum == true)
+                        if (sum)
                             value = number1 + number2;
                         sum = false;
-                        if (sub == true)
+                        if (sub)
                             value = number1 - number2;
                         sub = false;
-                        if (mul == true)
+                        if (mul)
                             value = number1 * number2;
                         mul = false;
-                        if (div == true)
+                        if (div)
                             value = number1 / number2;
                         div = false;
 
